@@ -79,8 +79,15 @@ This method set LoRa on recive mode and call function with message and RSSI as p
 		print(message, RSSI)'
 
 	setReciveMod(function) 
+	
+	
+### `setReciveModNewThread(self, onReceiveFunction):`
+This method set LoRa on recive mode, move infinit loop in new thread and call function with message and RSSI as parameters when message is recived.
 
+	def onRecive(message, RSSI):
+		print(message, RSSI)'
 
+	setReciveModNewThread(function) 
 
 
 
