@@ -1,3 +1,8 @@
+# LibSx127x
+
+LibSx127x is SX127x librari for python3 which makes it easier to comunicate using LoRa module
+
+
 
 ## How to install LibSx127x in python3
 
@@ -32,7 +37,12 @@
 
 	`npm install sx127x`
 
-### 6)Run reciver.py or sender.py(python3 sender.py or python3 reciver.py)
+
+
+## Run reciver.py or sender.py
+	
+	python3 sender.py
+	python3 reciver.py)
 
 
 ## Hardware Wiring
