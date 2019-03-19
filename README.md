@@ -42,7 +42,7 @@ LibSx127x is SX127x librari for python3 which makes it easier to comunicate usin
 ## Run reciver.py or sender.py
 	
 	python3 sender.py
-	python3 reciver.py)
+	python3 reciver.py
 
 
 ## Hardware Wiring
@@ -58,6 +58,26 @@ LibSx127x is SX127x librari for python3 which makes it easier to comunicate usin
 | NSS | GPIIO7 |
 | NRESET | GPIO24 |
 | DIO0 | GPIO25 |      
+
+
+## API
+
+### `setFrequency(string)`
+
+This method set carrier frequency ex `setFrequency("868e6")`
+
+### `send(string)`
+
+This metrhod transmit string using the lora module
+
+### `setReciveMod(function)` 
+
+This method set LoRa on recive mode and call function with message and RSSI as parameters when message is recived.
+
+`def onRecive(message, RSSI):`
+`	print(message, RSSI)`
+
+`setReciveMod(function)` 
 
 
 
