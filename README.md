@@ -8,7 +8,7 @@ LibSx127x is SX127x librari for python3 which makes it easier to comunicate usin
 
 ### 1) uninstall node.js (If you had nodejs already installed)
 	
-	`sudo apt-get remove nodejs`   
+	sudo apt-get remove nodejs   
 
 
 ### 2) Download and extract file
@@ -27,15 +27,18 @@ LibSx127x is SX127x librari for python3 which makes it easier to comunicate usin
 
 ### 3) Move all to /usr/local/
 
-	`sudo cp -R * /usr/local/`
+	sudo cp -R * /usr/local/
 
 ### 4)And now feel free to check your current running version.
 
 	node -v
 
-### 5) Install node.js lib
+### 5) Navigate to libSx127x folder
 
-	`npm install sx127x`
+
+### 6) Install node.js lib
+
+	npm install sx127x
 
 
 
@@ -55,7 +58,7 @@ LibSx127x is SX127x librari for python3 which makes it easier to comunicate usin
 | SCK | GPIO11 |
 | MISO | GPIO10 |
 | MOSI | GPIO9 |
-| NSS | GPIIO7 |
+| NSS | GPIIO8 |
 | NRESET | GPIO24 |
 | DIO0 | GPIO25 |      
 
