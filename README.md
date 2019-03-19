@@ -10,15 +10,15 @@ How to install LibSx127x in python3
 
 Raspberry Pi Model A, B, B+ and Compute Module
 
-	`wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv6l.tar.gz` 
-	`tar -xvf node-v4.0.0-linux-armv6l.tar.gz` 
-	`cd node-v4.0.0-linux-armv6l`
+	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv6l.tar.gz
+	tar -xvf node-v4.0.0-linux-armv6l.tar.gz 
+	cd node-v4.0.0-linux-armv6l
 
 Raspberry Pi 2 Model B
 
-	`wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz`
-	`tar -xvf node-v4.0.0-linux-armv7l.tar.gz` 
-	`cd node-v4.0.0-linux-armv7l`
+	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz
+	tar -xvf node-v4.0.0-linux-armv7l.tar.gz` 
+	cd node-v4.0.0-linux-armv7l`
 
 3) Move all to /usr/local/
 
@@ -26,7 +26,7 @@ Raspberry Pi 2 Model B
 
 4)And now feel free to check your current running version.
 
-	`node -v`
+	node -v
 
 5) Install node.js lib
 
