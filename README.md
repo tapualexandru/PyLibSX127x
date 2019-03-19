@@ -1,36 +1,36 @@
 
-#How to install LibSx127x in python3
+How to install LibSx127x in python3
 
 1) uninstall node.js (If you had nodejs already installed)
 	
-	`sudo apt-get remove nodejs   
+	`sudo apt-get remove nodejs`   
 
 
 2) Download and extract file:
 
 Raspberry Pi Model A, B, B+ and Compute Module
 
-	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv6l.tar.gz 
-	tar -xvf node-v4.0.0-linux-armv6l.tar.gz 
-	cd node-v4.0.0-linux-armv6l
+	`wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv6l.tar.gz` 
+	`tar -xvf node-v4.0.0-linux-armv6l.tar.gz` 
+	`cd node-v4.0.0-linux-armv6l`
 
 Raspberry Pi 2 Model B
 
-	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz
-	tar -xvf node-v4.0.0-linux-armv7l.tar.gz 
-	cd node-v4.0.0-linux-armv7l
+	`wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz`
+	`tar -xvf node-v4.0.0-linux-armv7l.tar.gz` 
+	`cd node-v4.0.0-linux-armv7l`
 
 3) Move all to /usr/local/ 
 
-	sudo cp -R * /usr/local/
+	`sudo cp -R * /usr/local/`
 
 4)And now feel free to check your current running version.
 
-	node -v
+	`node -v`
 
 5) Install node.js lib
 
-	npm install sx127x
+	`npm install sx127x`
 
 6)Run reciver.py or sender.py(python3 sender.py or python3 reciver.py)
 
