@@ -6,7 +6,7 @@ How to install LibSx127x in python3
 	`sudo apt-get remove nodejs`   
 
 
-2) Download and extract file:
+2) Download and extract file
 
 Raspberry Pi Model A, B, B+ and Compute Module
 
@@ -15,13 +15,11 @@ Raspberry Pi Model A, B, B+ and Compute Module
 	`cd node-v4.0.0-linux-armv6l`
 
 Raspberry Pi 2 Model B
-
 	`wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz`
 	`tar -xvf node-v4.0.0-linux-armv7l.tar.gz` 
 	`cd node-v4.0.0-linux-armv7l`
 
 3) Move all to /usr/local/ 
-
 	`sudo cp -R * /usr/local/`
 
 4)And now feel free to check your current running version.
