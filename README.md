@@ -14,22 +14,25 @@ Raspberry Pi Model A, B, B+ and Compute Module
 	cd node-v4.0.0-linux-armv6l
 
 Raspberry Pi 2 Model B
+
 	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz
 	tar -xvf node-v4.0.0-linux-armv7l.tar.gz 
 	cd node-v4.0.0-linux-armv7l
 
 3) Move all to /usr/local/ 
+
 	sudo cp -R * /usr/local/
 
 4)And now feel free to check your current running version.
+
 	node -v
 
 5) Install node.js lib
+
 	npm install sx127x
 
 6)Run reciver.py or sender.py(python3 sender.py or python3 reciver.py)
 
-<addr> test
 
 Hardware Wiring
 
