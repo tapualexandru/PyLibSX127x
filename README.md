@@ -74,8 +74,8 @@ This metrhod transmit string using the lora module
 
 This method set LoRa on recive mode and call function with message and RSSI as parameters when message is recived.
 
-`def onRecive(message, RSSI):`
-`	print(message, RSSI)`
+`def onRecive(message, RSSI):
+	print(message, RSSI)'
 
 `setReciveMod(function)` 
 
