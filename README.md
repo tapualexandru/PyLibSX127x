@@ -1,5 +1,5 @@
 
-How to install LibSx127x in python3
+#How to install LibSx127x in python3
 
 1) uninstall node.js (If you had nodejs already installed)
 	
