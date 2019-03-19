@@ -29,6 +29,7 @@ Raspberry Pi 2 Model B
 
 6)Run reciver.py or sender.py(python3 sender.py or python3 reciver.py)
 
+<addr> test
 
 Hardware Wiring
 
