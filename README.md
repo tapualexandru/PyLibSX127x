@@ -90,7 +90,7 @@ This method set LoRa on recive mode, move infinit loop in new thread and call fu
 	def onRecive(message, RSSI):
 		print(message, RSSI)
 
-	setReciveModNewThread(function) 
+	setReciveModNewThread(onRecive) 
 
 
 
