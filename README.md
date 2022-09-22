@@ -81,7 +81,7 @@ This method set LoRa on recive mode and call function with message and RSSI as p
 	def onRecive(message, RSSI):
 		print(message, RSSI)
 
-	setReciveMod(function) 
+	setReciveMod(onRecive) 
 	
 	
 ### `setReciveModNewThread(self, onReceiveFunction):`
